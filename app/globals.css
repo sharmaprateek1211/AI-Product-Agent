@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, system-ui, sans-serif;
+  background: #07111f;
+  color: #eef4ff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+.container {
+  max-width: 1120px;
+  margin: auto;
+  padding: 0 24px;
+}
+
+.nav {
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #1d2a3a;
+}
+
+.brand {
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.muted {
+  color: #91a1b7;
+}
+
+.hero {
+  padding: 90px 0 70px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 58px;
+  line-height: 1.02;
+  margin: 0 auto 22px;
+  max-width: 850px;
+}
+
+.hero p {
+  font-size: 19px;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto 32px;
+  color: #a9b7ca;
+}
+
+.btn {
+  display: inline-flex;
+  border: 0;
+  border-radius: 12px;
+  padding: 13px 20px;
+  background: #6d5dfc;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn.secondary {
+  background: #152235;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  padding: 25px 0 80px;
+}
+
+.card {
+  background: #0d1928;
+  border: 1px solid #1e3046;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.form {
+  max-width: 720px;
+  margin: 50px auto;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 14px 15px;
+  background: #0b1726;
+  border: 1px solid #29405a;
+  color: white;
+  border-radius: 10px;
+  margin: 7px 0 15px;
+}
+
+.textarea {
+  min-height: 110px;
+  resize: vertical;
+}
+
+.row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.dashboard {
+  padding: 45px 0;
+}
+
+.result {
+  white-space: pre-wrap;
+  line-height: 1.65;
+  background: #091522;
+  border: 1px solid #20354c;
+  border-radius: 14px;
+  padding: 22px;
+  margin-top: 20px;
+}
+
+.small {
+  font-size: 13px;
+}
+
+.error {
+  color: #ff8d8d;
+}
+
+.success {
+  color: #82e6ae;
+}
+
+@media (max-width: 800px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero h1 {
+    font-size: 42px;
+  }
+}
