@@ -171,8 +171,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$supabase$2f$ssr$2f$dist$2f$module$2f$createBrowserClient$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@supabase/ssr/dist/module/createBrowserClient.js [app-client] (ecmascript)");
 ;
 function createClient() {
-    const url = ("TURBOPACK compile-time value", "https://ezzrdkgfvtrhwesdhxhj.supabase.co");
-    const key = ("TURBOPACK compile-time value", "sb_publishable_3h_BVbVtsFuD8UhG5b3cnQ_UdqEJ4ad");
+    const url = ("TURBOPACK compile-time value", "https://grunyumsembkjrsnrglc.supabase.co");
+    const key = ("TURBOPACK compile-time value", "sb_publishable_UCCfuakaziBHbtSo057CIg_8CTDwdYR");
     if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
     ;
     return (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$supabase$2f$ssr$2f$dist$2f$module$2f$createBrowserClient$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["createBrowserClient"])(url, key);

@@ -118,13 +118,13 @@ async function POST(req) {
             });
         }
         const prompt = mode === "modify" ? `Update this product concept based on the user's instruction. Keep useful existing information and return valid JSON only.
-Existing concept: ${JSON.stringify(current)}
-Instruction: ${instruction}
-Return keys: productName, description, targetUsers, problem, keyFeatures, businessModel, improvements, mvpFeatures, navigation, pages, uiDirection.` : `You are an AI Product Analyst. Analyze the supplied website and product idea. You may use the URL as contextual input, but do not claim to have browsed content you cannot access. Return valid JSON only.
-Website: ${url}
-Idea: ${description}
-Target customer: ${targetCustomer}
-Return keys: productName, description, targetUsers, problem, keyFeatures, businessModel, improvements, mvpFeatures, navigation, pages, uiDirection.`;
+      Existing concept: ${JSON.stringify(current)}
+      Instruction: ${instruction}
+      Return keys: productName, description, targetUsers, problem, keyFeatures, businessModel, improvements, mvpFeatures, navigation, pages, uiDirection.` : `You are an AI Product Analyst. Analyze the supplied website and product idea. You may use the URL as contextual input, but do not claim to have browsed content you cannot access. Return valid JSON only.
+      Website: ${url}
+      Idea: ${description}
+      Target customer: ${targetCustomer}
+      Return keys: productName, description, targetUsers, problem, keyFeatures, businessModel, improvements, mvpFeatures, navigation, pages, uiDirection.`;
         const { model, useResponsesApi } = getOpenAIModel();
         const endpoint = useResponsesApi ? "https://api.openai.com/v1/responses" : "https://api.openai.com/v1/chat/completions";
         const body = useResponsesApi ? {
@@ -190,8 +190,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$head
 ;
 ;
 async function createClient() {
-    const url = ("TURBOPACK compile-time value", "https://ezzrdkgfvtrhwesdhxhj.supabase.co");
-    const key = ("TURBOPACK compile-time value", "sb_publishable_3h_BVbVtsFuD8UhG5b3cnQ_UdqEJ4ad");
+    const url = ("TURBOPACK compile-time value", "https://grunyumsembkjrsnrglc.supabase.co");
+    const key = ("TURBOPACK compile-time value", "sb_publishable_UCCfuakaziBHbtSo057CIg_8CTDwdYR");
     if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
     ;
     const cookieStore = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$headers$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["cookies"])();

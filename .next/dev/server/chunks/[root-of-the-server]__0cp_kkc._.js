@@ -118,7 +118,7 @@ async function proxy(request) {
     let response = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$middleware$5d$__$28$ecmascript$29$__["NextResponse"].next({
         request
     });
-    const supabase = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$supabase$2f$ssr$2f$dist$2f$module$2f$createServerClient$2e$js__$5b$middleware$5d$__$28$ecmascript$29$__["createServerClient"])(("TURBOPACK compile-time value", "https://ezzrdkgfvtrhwesdhxhj.supabase.co"), ("TURBOPACK compile-time value", "sb_publishable_3h_BVbVtsFuD8UhG5b3cnQ_UdqEJ4ad"), {
+    const supabase = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$supabase$2f$ssr$2f$dist$2f$module$2f$createServerClient$2e$js__$5b$middleware$5d$__$28$ecmascript$29$__["createServerClient"])(("TURBOPACK compile-time value", "https://grunyumsembkjrsnrglc.supabase.co"), ("TURBOPACK compile-time value", "sb_publishable_UCCfuakaziBHbtSo057CIg_8CTDwdYR"), {
         cookies: {
             getAll () {
                 return request.cookies.getAll();
